@@ -1,0 +1,656 @@
+/*header*/
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+p {
+  margin: 20px auto;
+  padding: 0;
+  max-width: 600px;
+  text-align: justify;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  color: #FF6B6B;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*home*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.intro-section {
+  padding: 20px 0;
+  margin-top: -150px;
+}
+
+.btn-primary {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+}
+
+.btn-primary:hover {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+}
+
+/* 'Why Choose Us' section */
+#features h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #000000;
+}
+
+#features h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+
+#features p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* General Styling */
+section#virtual {
+  background-color: #f8f9fa;
+  padding-top: 60px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-radius: 10px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.card .card-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #FF6B6B !important;
+}
+
+
+.card-body {
+  padding: 25px;
+}
+
+ul {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li i {
+  color: #FF6B6B;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+}
+
+.badge-popular {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #FF6B6B;
+  color: white;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 15px;
+  }
+}
+
+.luxury-package {
+  transform: none;
+  z-index: 0;
+}
+
+.premium-package {
+  border: 2px solid #FF6B6B !important;
+}
+
+.luxury-package {
+  border: none;
+}
+
+/* General section styling */
+#virtual {
+  background-color: #f8f9fa;
+}
+
+.webcam-container {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.webcam-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.filter-btn,
+#startCamera,
+#capture,
+.btn-outline-danger {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  border-radius: 15px;
+}
+
+.btn-danger:hover {
+  background-color: #e55e5e;
+  border-color: #e55e5e;
+}
+
+.btn-outline-danger {
+  color: #ff6b6b;
+  border: 2px solid #ff6b6b;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.gallery-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .webcam-container {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .filter-btn {
+    padding: 8px 16px;
+  }
+}
+
+#virtual h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+/* Custom Styles for Booking Section */
+#book {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #000;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.custom-btn {
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Contact Section Styling */
+#contact {
+  padding: 60px 0;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #000;
+}
+
+.text-muted {
+  font-size: 1.1rem;
+}
+
+/* Customizing Icons */
+.bi {
+  font-size: 1.5rem;
+  color: #FF6B6B;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn-danger {
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/*photobooth*/
+.logo {
+  font-family: 'Pacifico', cursive;
+  color: #ff6b6b;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Camera styles */
+video {
+  transform: scaleX(-1);
+  /* Corrects camera inversion */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.photobooth-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.booth-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.camera-view {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  aspect-ratio: 4/3;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.camera-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-btn:hover {
+  background-color: #ff5252;
+}
+
+.preview-strip {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.photos-counter {
+  color: #ff6b6b;
+  font-size: 14px;
+  text-align: center;
+}
+
+.timer-counter {
+  color: #ff6b6b;
+  font-size: 14px;
+  text-align: center;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.layout-options,
+.filter-options {
+  width: 48%;
+}
+
+.layout-title,
+.filter-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.layout-grid,
+.filter-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.layout-option {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.layout-option.active {
+  border-color: #ff6b6b;
+  background-color: rgba(255, 107, 107, 0.1);
+}
+
+.filter-option {
+  padding: 5px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter-option.active {
+  background-color: #ff6b6b;
+  color: white;
+  border-color: #ff6b6b;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.action-btn {
+  padding: 8px 25px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.download-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.reset-btn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.preview-btn {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+
+#photoStrip {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.strip-photo {
+  width: 100%;
+  height: 25%;
+  object-fit: cover;
+  filter: grayscale(0%);
+}
+
+.vintage-filter {
+  filter: sepia(60%) contrast(110%) brightness(90%);
+}
+
+.bw-filter {
+  filter: grayscale(100%) contrast(120%);
+}
+
+/*booking*/
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Style for the paragraph */
+p {
+  margin: 20px auto;
+  padding: 0;
+  max-width: 600px;
+  text-align: justify;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 equal columns */
+  grid-auto-rows: 150px;
+  gap: 5px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Specific Image Size Adjustments */
+.small-img {
+  grid-row: span 1;
+  grid-column: span 1;
+  height: 200px;
+}
+
+.extra-small-img {
+  grid-row: span 1;
+  grid-column: span 1;
+  height: 80px;
+}
+
+.large-img {
+  grid-row: span 2;
+  grid-column: span 2;
+  height: 300px;
+}
+
+
+/* Add Pacifico font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Footer Styles */
+footer.bg-dark {
+  background-color: #F5F5DC !important;
+  color: white;
+}
+
+/* Styling for the 'Capture Moments' title */
+.footer-title {
+  font-family: 'Pacifico', cursive;
+  color: #FF6B6B !important;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: gray;
+  margin-right: 15px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+/* Styling for Quick Links */
+ul.list-unstyled li a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+ul.list-unstyled li a:hover {
+  color: white;
+}
+
+/* Footer border-top */
+.border-top {
+  border-top: 1px solid #495057;
+}
+
+/* Adjusting text-muted color */
+.text-muted {
+  color: #6c757d !important;
+}
+
+.text-muted a {
+  color: #6c757d;
+}
+
+/* Footer heading color for Quick Links */
+footer .col-md-3 h3 {
+  color: #0e0c0c;/
+}
+
+/* Add space between the sections */
+.footer-section {
+  margin-right: 300px;
+}

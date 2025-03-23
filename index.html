@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture Moments</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Capture Moments</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="photobooth.html">Virtual Booth</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Book a Booth</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="container intro-section text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="fw-bold">Snap, Share, and Relive the Fun!</h2>
+                <p class="text-muted">
+                    Create unforgettable memories with our virtual photobooth! Simply click, pose, and
+                    instantly share your photos with friends and family. It’s that easy.
+                </p>
+                <div class="d-flex gap-3 justify-content-center">
+                    <a href="photobooth.html" class="btn btn-danger">Try Virtual Booth</a>
+                    <a href="booking.html" class="btn btn-outline-danger">Book Physical Booth</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="photo.jpg" class="img-fluid rounded-3 shadow w-50" alt="Photobooth">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2><strong>Why Choose Us</strong></h2>
+            <div class="row mt-4">
+                <!-- premium-Quality -->
+                <div class="col-md-4">
+                    <img src="f (1).png" alt="premium Quality " class="img-fluid mb-3" style="width: 350px;">
+                    <h4>Premium-Quality </h4>
+                    <p>Professional DSLR cameras and studio-quality lighting for perfect shots every time.</p>
+                </div>
+                <!-- Instant filters -->
+                <div class="col-md-4">
+                    <img src="f (3).png" alt="  Instant filters" class="img-fluid mb-3" style="width: 350px;">
+                    <h4> Instant filters</h4>
+                    <p>Choose from dozens of filters and effects to make your photos truly unique.</p>
+                </div>
+                <!-- Instant Sharing -->
+                <div class="col-md-4">
+                    <img src="f (2).png" alt="Instant Sharing" class="img-fluid mb-3" style="width: 350px;">
+                    <h4>Instant Sharing</h4>
+                    <p>Share your photos instantly via email, SMS, or social media platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="virtual" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center font-weight-bold mb-4"><strong>Our Photo Booth Packages</strong></h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4"> <!-- 3-column grid, stack on smaller screens -->
+                <!-- Basic Package -->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title font-weight-bold">Basic Package</h3>
+                            <div class="card-text text-primary h3 mb-4">Nu.599</div>
+                            <ul class="list-unstyled mb-4">
+                                <li><i class="bi bi-check-circle"></i>2 Hours of Service</li>
+                                <li><i class="bi bi-check-circle"></i>Unlimited Photos</li>
+                                <li><i class="bi bi-check-circle"></i>Basic Props Set</li>
+                                <li><i class="bi bi-check-circle"></i>Digital Gallery</li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="col">
+                    <div class="card premium-package border-primary position-relative">
+                        <div class="badge-popular">Most Popular</div>
+                        <div class="card-body text-center">
+                            <h3 class="card-title font-weight-bold">Premium Package</h3>
+                            <div class="card-text text-primary h3 mb-4">Nu.799</div>
+                            <ul class="list-unstyled mb-4">
+                                <li><i class="bi bi-check-circle"></i>4 Hours of Service</li>
+                                <li><i class="bi bi-check-circle"></i>Unlimited Photos</li>
+                                <li><i class="bi bi-check-circle"></i>Premium Props Set</li>
+                                <li><i class="bi bi-check-circle"></i>Digital & Printed Gallery</li>
+                                <li><i class="bi bi-check-circle"></i>Custom Backdrop</li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luxury Package -->
+                <div class="col">
+                    <div class="card luxury-package border-primary position-relative">
+                        <div class="card-body text-center">
+                            <h3 class="card-title font-weight-bold">Luxury Package</h3>
+                            <div class="card-text text-primary h3 mb-4">Nu.999</div>
+                            <ul class="list-unstyled mb-4">
+                                <li><i class="bi bi-check-circle"></i>6 Hours of Service</li>
+                                <li><i class="bi bi-check-circle"></i>Unlimited Photos</li>
+                                <li><i class="bi bi-check-circle"></i>Luxury Props Set</li>
+                                <li><i class="bi bi-check-circle"></i>Digital & Printed Gallery</li>
+                                <li><i class="bi bi-check-circle"></i>Custom Backdrop</li>
+                                <li><i class="bi bi-check-circle"></i>Social Media Station</li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section id="virtual" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold display-4"><strong>Virtual Photo Booth</strong></h2>
+            <div class="row">
+                <!-- Camera Section (Left) -->
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <div class="webcam-container bg-dark rounded-3 overflow-hidden shadow-lg">
+                        <video id="webcam" class="d-none"></video>
+                        <canvas id="canvas" class="w-100 h-100"></canvas>
+                        <div class="webcam-overlay d-flex align-items-center justify-content-center">
+                            <button id="startCamera" class="btn btn-danger px-4 py-2 rounded-3">Start Camera</button>
+                        </div>
+                    </div>
+
+                    <!-- Filters -->
+                    <div class="d-flex gap-3 justify-content-center mt-3">
+                        <button class="filter-btn btn btn-outline-danger px-3 py-2 rounded-3"
+                            data-filter="none">Normal</button>
+                        <button class="filter-btn btn btn-outline-danger px-3 py-2 rounded-3"
+                            data-filter="grayscale">B&W</button>
+                        <button class="filter-btn btn btn-outline-danger px-3 py-2 rounded-3"
+                            data-filter="sepia">Vintage</button>
+                        <button class="filter-btn btn btn-outline-danger px-3 py-2 rounded-3"
+                            data-filter="Buypackage">Buy package</button>
+                    </div>
+
+                    <!-- Capture Button -->
+                    <button id="capture" class="btn btn-danger px-4 py-2 rounded-3 mt-3 d-none">Capture Photo</button>
+                </div>
+
+                <!-- Gallery Section -->
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <div class="gallery-container">
+                        <img src="g1.png" alt="Gallery" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+
+                    <!-- View More Button -->
+                    <button class="btn btn-outline-danger px-4 py-2 rounded-3 mt-5">View More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="book" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Book a Photo Booth</h2>
+            <div class="col-md-6 mx-auto">
+                <form id="bookingForm">
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Event Date</label>
+                        <input type="date" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Event Location</label>
+                        <input type="text" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Package</label>
+                        <select class="form-select">
+                            <option>2 Hours - Basic Package</option>
+                            <option>4 Hours - Standard Package</option>
+                            <option>6 Hours - Premium Package</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100 custom-btn">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5 bg-white">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4">Get in Touch</h2>
+                    <p class="text-muted">
+                        Have questions about our photo booth services? We'd love to hear from you. Send us a message and
+                        we'll respond as soon as possible. </p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="bi bi-geo-alt text-danger fs-5 me-3"></i>
+                            <span>location: Thimphu,Bhutan</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="bi bi-telephone text-danger fs-5 me-3"></i>
+                            <span>phone no: +975773442497</span>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="bi bi-envelope text-danger fs-5 me-3"></i>
+                            <span>mail: paldenngawang20@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- About Section -->
+                <div class="col-md-3 footer-section">
+                    <h3 class="footer-title">Capture Moments</h3>
+                    <div class="social-icons">
+                        <a href="#" class="fs-4"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="fs-4"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="fs-4"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="col-md-3 footer-section">
+                    <h3 class="h5 fw-semibold mb-3">Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none d-block">Home</a></li>
+                        <li><a href="photobooth.html" class="text-muted text-decoration-none d-block">Virtual Booth</a>
+                        </li>
+                        <li><a href="booking.html" class="text-muted text-decoration-none d-block">Book a Booth</a></li>
+                        <li><a href="Gallery.html" class="text-muted text-decoration-none d-block">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-top mt-4 pt-3 text-center text-muted">
+                <p>&copy; 2025 Capture Moments. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
